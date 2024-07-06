@@ -31,6 +31,6 @@ def decode_video(video_path, output_file_path, width=1920, height=1080, pix=3):
             output_file.write(bytes_array)
 
 if __name__ == "__main__":
-    video_path = "/home/cr4nfus3d/Documents/projects/storage-3/storage works/version-2_best/redgear.mp4"
-    output_file_path = "/home/cr4nfus3d/Documents/projects/storage-3/storage works/version-2_best/generated/redgear-mouse-driver-A15.zip"
+    video_path = "path/to/video.avi"
+    output_file_path = "path/to/output/file.bin" # Make sure to remember what was the extension of the file before encoding. You can save it to an file or create an metadata.json and upload on YouTube in description of the video with additional details to get information about extension.
     decode_video(video_path, output_file_path)
