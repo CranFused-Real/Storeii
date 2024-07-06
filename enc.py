@@ -46,6 +46,6 @@ def create_video(output_video_path, inputf, width=1920, height=1080, frame_rate=
         video_writer.release()
 
 if __name__ == "__main__":
-    input_file_path = "/home/cr4nfus3d/Documents/projects/storage-3/storage works/version-2_best/input/mouse.rar"
-    output_video_path = "/home/cr4nfus3d/Documents/projects/storage-3/storage works/version-2_best/output/out1.avi"
+    input_file_path = "path/to/input/file"
+    output_video_path = "path/to/output/video.avi"
     create_video(output_video_path, input_file_path)
