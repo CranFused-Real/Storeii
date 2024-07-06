@@ -6,7 +6,7 @@ Storeii, Store files into video and then upload them on youtube to get them back
 ## Linux
 
 ```
-git clone https://github.com/CranFused-Real/Storeii
+git clone https://github.com/CranFused-Real/Storeii.git
 
 cd Storeii
 ```
